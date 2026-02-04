@@ -1,0 +1,93 @@
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown button {
+    background-color: rgb(69, 48, 117);
+    color: rgb(0, 255, 0);
+    padding: 15px 60px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown:hover button {
+    background-color: rgba(100, 72, 172, 0.756);
+    color: rgb(0, 255, 200);
+}
+
+.dropdown a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 15px 10px;
+}
+
+.dropdown a:hover {
+    background-color: rgb(235, 174, 194);
+    color: blueviolet;
+}
+
+.dropdown .content {
+    display: none;
+    position: absolute;
+    background-color: lavenderblush;
+    width: 56%;
+    box-shadow: 4px 4px 5px rgba(15, 15, 53, 0.591);
+}
+
+.dropdown:hover .content {
+    display: block;
+
+}
+
+.media-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.media-table th,
+.media-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    color: black;
+}
+
+.media-table th {
+    background-color: rgb(69, 48, 117);
+    color: white;
+}
+
+.media-table {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(3px);
+    color: black;
+    border-collapse: collapse;
+}
+
+.media-table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.media-table tr:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+body {
+    background-image: url("poison.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1a0b2e;
+    color: white;
+}
+
+div {
+    color: rgb(174, 249, 208);
+    font-size: large;
+}
